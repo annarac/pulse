@@ -1,0 +1,43 @@
+.feedback {
+    padding-bottom: 50px;
+    &__title{
+        color: #0D0D0D;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 60px;
+    }
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0D0D0D;
+    }
+    &__count {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #646464;
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #0D0D0D;
+        margin-top: 10px;
+    }
+    &__text {
+        margin-left: 61px;
+        width: 680px;
+    }
+    &__img {
+        margin: 0 auto;
+    }
+}
