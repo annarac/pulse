@@ -8,6 +8,11 @@
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
+    &:hover {
+        background: linear-gradient(174deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(199,1,1,1) 100%);
+        color: $main-color;
+        box-shadow: 3px 3px 0px $main-color;
+    }
     &_main {
         margin-top: 67px;
         width: 300px;
